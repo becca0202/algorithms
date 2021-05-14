@@ -38,11 +38,3 @@ function rotationPoint(arrayOfWords) {
   // Array is not rotated
   return 0;
 }
-
-function solution(N) {
-  let binaryNum = N.toString(2);
-  console.log('type of', typeof binaryNum);
-  return binaryNum;
-}
-
-console.log(solution(1041));

@@ -1,3 +1,6 @@
+//O(n) Time where n is the length of the array
+//O(n) space where n is the size of the hash map
+
 function solution(A) {
   let map = new Map();
 
