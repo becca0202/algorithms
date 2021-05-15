@@ -16,7 +16,7 @@ For example, you are given integer X = 5 and array A such that:
   A[5] = 3
   A[6] = 5
   A[7] = 4
-  
+
 In second 6, a leaf falls into position 5. This is the earliest time when leaves appear in every position across the river.
 
 Write a function:
@@ -28,6 +28,7 @@ that, given a non-empty array A consisting of N integers and integer X, returns 
 If the frog is never able to jump to the other side of the river, the function should return −1.
 */
 
+//O(n) Time and O(x) space where n is the length of the input array and x is the number of unique elements
 function solution(X, A) {
   if (A.length === 0 || A.length < X) {
     return -1;
