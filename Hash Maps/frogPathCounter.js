@@ -28,7 +28,7 @@ that, given a non-empty array A consisting of N integers and integer X, returns 
 If the frog is never able to jump to the other side of the river, the function should return −1.
 */
 
-//O(n) Time and O(x) space where n is the length of the input array and x is the number of unique elements
+//O(n) Time and O(n) space where n is the length of the input array
 function solution(X, A) {
   if (A.length === 0 || A.length < X) {
     return -1;
